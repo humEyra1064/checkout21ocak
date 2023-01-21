@@ -3,30 +3,40 @@
     margin: 0;
     padding: 0;
     font-family: 'Yeon Sung', cursive;
+   
+   
 }
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/09/22/40/floral-1382723_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main{
     width: 70%;
-    height:600px ;
-    background-color: blueviolet;
+    max-width: 500px;
+    height:800px ;
+    background-color:rgb(147, 231, 147) ;
+    border-radius: 30px;
 }
 
 #checkout-title{
-    margin: 30px;
+    margin: 20px;
     text-align: center;
 }
 .product{
     display: flex;
     justify-content: space-evenly;
-     background-color: aqua;
+    align-items: center;
+    margin: 30px 0;
+     
 }
 img{
-    width: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px; 
 }
 p strong{
@@ -46,11 +56,22 @@ p span{
     width: 80px;
 
 }
-.quantity{
-    margin: 0 13px;
-}
+
 i{
     border: 1px solid black;
     padding: 4px;
     border-radius: 4px;
+}
+.quantity{
+    margin: 0 13px;
+}
+.remove-product{
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+    background-color: orangered;
+}
+.product-line-price{
+    margin: 5px;
 }
