@@ -23,11 +23,34 @@ main{
 .product{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    background-color: aqua;
+     background-color: aqua;
 }
 img{
     width: 200px;
-    border-radius: 20px;
-    
+    border-radius: 20px; 
+}
+p strong{
+    color: orangered;
+    margin: 5px;
+}
+p span{
+    text-decoration: line-through;
+}
+.quantity-controller{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    width: 80px;
+
+}
+.quantity{
+    margin: 0 13px;
+}
+i{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
 }
