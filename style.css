@@ -5,6 +5,7 @@
     font-family: 'Yeon Sung', cursive;
    
    
+   
 }
 body{
     height: 100vh;
@@ -14,24 +15,37 @@ body{
     background-image: url(https://cdn.pixabay.com/photo/2016/05/09/22/40/floral-1382723_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 main{
-    width: 70%;
-    max-width: 500px;
-    height:800px ;
-    background-color:rgb(147, 231, 147) ;
+    width: 75%;
+    max-width: 430px;
+    height:800px;
+    min-height: 800px;
+     padding: 30px;
+    /* background-color:rgb(245, 181, 198) ;
+    border-radius: 30px; */
+    margin-top: 20px;
+}
+#products-preview{
+    
+    margin-top: 35px;
+    background-color:rgb(245, 181, 198) ;
     border-radius: 30px;
+
 }
 
 #checkout-title{
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
+
 .product{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: 30px 0;
+    margin: 5px 10px;
+    gap: 20px;
      
 }
 img{
@@ -39,9 +53,12 @@ img{
     height: 150px;
     border-radius: 20px; 
 }
-p strong{
-    color: orangered;
+h2{
     margin: 5px;
+}
+p strong{
+    color: rgb(189, 33, 85);
+    margin: 3px;
 }
 p span{
     text-decoration: line-through;
@@ -49,11 +66,11 @@ p span{
 .quantity-controller{
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
     border: 1px solid black;
     border-radius: 6px;
-    padding: 6px;
-    width: 80px;
+    padding: 7px;
+    width: 106px;
 
 }
 
@@ -61,17 +78,30 @@ i{
     border: 1px solid black;
     padding: 4px;
     border-radius: 4px;
+    background-color: rgb(192, 192, 192);
 }
 .quantity{
-    margin: 0 13px;
+    margin: 0 24px;
 }
 .remove-product{
     padding: 7px;
     border-radius: 7px;
     border: none;
     margin: 5px;
-    background-color: orangered;
+    background-color: rgb(189, 33, 85);
 }
 .product-line-price{
     margin: 5px;
+}
+
+.buy-detail{
+    /* width: 300px;
+    text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    /* padding: 5px; */
+    border-top: 1px solid black;
+
 }
