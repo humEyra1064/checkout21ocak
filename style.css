@@ -68,7 +68,7 @@ p span{
     display: flex;
     align-items: center;
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(189, 33, 85);
     border-radius: 6px;
     padding: 7px;
     width: 106px;
@@ -76,7 +76,7 @@ p span{
 }
 
 i{
-    border: 1px solid black;
+    border: 1px solid rgb(189, 33, 85);
     padding: 4px;
     border-radius: 4px;
     background-color: rgb(192, 192, 192);
